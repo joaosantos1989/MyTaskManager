@@ -12,7 +12,7 @@ public class Main {
        
         char opcao;
         do{
-            System.out.println("Bem vindo(a) ao TaskManager, escolha uma opção:");
+            System.out.println("Bem vindo(a) ao TaskManager");
             System.out.println("(V)isualizar");
             System.out.println("(M)arcar");
             System.out.println("(E)ditar");
@@ -44,7 +44,7 @@ public class Main {
         }while(opcao != 'S'&& opcao != 's');
     }
     
-    //submenu visualizar tarefas
+    //submenu visualizar tarefas (a ser feito por Juliana)
    static void visualizar(String[] tarefa, boolean[] temPrazo, boolean[] foiFeita, int[][] data, int nTarefas, Scanner teclado){
         char opcao;
         do{
@@ -108,7 +108,7 @@ public class Main {
 
     //lista as tarefas a realizar numa data d (dia, mês, ano) fornecida pelo utilizador
     static void visualizarDia(){
-    // a opção Voltar deve sempre permitir regressar ao menu anterior
+    
     }
 
     //lista todas as tarefas a realizar até ao dia d e não só as realizadas nesse dia
@@ -131,7 +131,7 @@ public class Main {
     //a opção Voltar deve sempre permitir regressar ao menu anterior
     }
 
-    //submenu marcação de tarefas
+    //submenu marcação de tarefas ** (fazer por mim) **
     static void marcar(Scanner teclado){
         char opcao;
         do{
@@ -191,7 +191,7 @@ public class Main {
 
     }
 
-    //submenu Editar
+    //submenu Editar //a defenir
     static void editar(Scanner teclado){
         char opcao;
         do{
